@@ -31,7 +31,7 @@ UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Gemini API key here
-GEMINI_API_KEY = "AIzaSyA2YvuCDjuDoXFHg5bTYtviImsQAKQvBnI" 
+GEMINI_API_KEY = "api_key" 
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
 def get_plant_use_case(plant_name):
